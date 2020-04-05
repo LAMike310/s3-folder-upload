@@ -52,7 +52,7 @@ const invalidation = {
     awsInvalidationPath: "<The Path to Invalidate>"
 }
 
-s3FolderUpload(directoryName, credentials, options, invalidation)
+s3UploadFolder(directoryName, credentials, options, invalidation)
 ```
 
 ## Options
